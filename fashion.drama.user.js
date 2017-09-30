@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         细声视频播放：优酷，爱奇艺，腾讯，搜狐剧集
 // @namespace    http://drama.xlwmin.pub
-// @version      1.1.3
-// @description  细声视频播放，VIP视频播放,修正腾讯集数预告不纳入计算
+// @version      1.1.4
+// @description  细声视频播放，VIP视频播放,(测试同步更新)
 // @author       细声工作室
 // @match        *://v.youku.com/v_show/id_*.html*
 // @match        *://www.iqiyi.com/v_*.html*
