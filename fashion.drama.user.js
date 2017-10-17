@@ -13,7 +13,7 @@
 // ==/UserScript==
 
 
-
+//测试同步
 Page = {
     entry:function(){
         //创建按钮
