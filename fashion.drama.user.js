@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         细声视频播放：电影，剧集，综艺
 // @namespace    http://drama.xlwmin.pub
-// @version      1.2.0
+// @version      1.2.1
 // @description  细声视频播放（优酷，爱奇艺，腾讯，搜狐），界面升级
 // @author       细声工作室
 // @match        *://v.youku.com/v_show/id_*.html*
@@ -32,7 +32,20 @@ Page = {
         document.body.appendChild(div);
     },
     onClick:function(){
-        window.open("http://drama.xlwmin.pub?link="+window.location.href);
+        var form = document.createElement("form");
+        form.setAttribute("method","POST");
+        form.setAttribute("action","http://drama.xlwmin.pub");
+        form.setAttribute("target","_blank");
+        form.style.display="none";
+
+        var inputText = document.createElement("input");
+        inputText.setAttribute("name","link");
+        inputText.setAttribute("type","hidden");
+        inputText.setAttribute("value",window.location.href);
+        form.appendChild(inputText);
+
+        document.body.appendChild(form);
+        form.submit();
     }
 };
 (function() {
