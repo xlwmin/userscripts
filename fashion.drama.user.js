@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         细声视频播放：电影，剧集，综艺
 // @namespace    http://drama.xlwmin.pub
-// @version      1.2.1
-// @description  细声视频播放（优酷，爱奇艺，腾讯，搜狐），界面升级
+// @version      1.2.2
+// @description  细声视频播放（优酷，爱奇艺，腾讯，搜狐），增加搜狐电影
 // @author       细声工作室
 // @match        *://v.youku.com/v_show/id_*.html*
 // @match        *://www.iqiyi.com/v_*.html*
 // @match        *://tv.sohu.com/*/n*.shtml*
+// @match        *://film.sohu.com/album/*.html*
 // @match        *://v.qq.com/x/cover/*/*.html*
 // @match        *://v.qq.com/x/cover/*.html*
 // @grant        GM_addStyle

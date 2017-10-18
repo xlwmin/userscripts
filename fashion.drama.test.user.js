@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         细声视频播放（测试版）：优酷，爱奇艺，腾讯，搜狐剧集
 // @namespace    http://drama.xlwmin.pub
-// @version      1.1.5
+// @version      1.2.2
 // @description  这是测试版本，请使用正式版。
 // @author       细声工作室
 // @match        *://v.youku.com/v_show/id_*.html*
@@ -9,6 +9,7 @@
 // @match        *://tv.sohu.com/*/n*.shtml*
 // @match        *://v.qq.com/x/cover/*/*.html*
 // @match        *://v.qq.com/x/cover/*.html*
+// @match        *://film.sohu.com/album/*.html*
 // @grant        GM_addStyle
 // ==/UserScript==
 
