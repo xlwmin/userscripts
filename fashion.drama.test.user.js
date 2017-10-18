@@ -33,7 +33,20 @@ Page = {
         document.body.appendChild(div);
     },
     onClick:function(){
-        window.open("http://localhost?link="+window.location.href);
+        var form = document.createElement("form");
+        form.setAttribute("method","POST");
+        form.setAttribute("action","http://localhost");
+        form.setAttribute("target","_blank");
+        form.style.display="none";
+
+        var inputText = document.createElement("input");
+        inputText.setAttribute("name","link");
+        inputText.setAttribute("type","hidden");
+        inputText.setAttribute("value",window.location.href);
+        form.appendChild(inputText);
+
+        document.body.appendChild(form);
+        form.submit();
     }
 };
 (function() {
