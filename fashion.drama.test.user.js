@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         细声视频播放（测试版）：优酷，爱奇艺，腾讯，搜狐剧集
+// @name         细声视频播放：测试版
 // @namespace    http://drama.xlwmin.pub
-// @version      1.2.2
-// @description  这是测试版本，请使用正式版。
+// @version      1.2.3
+// @description  测试版
 // @author       细声工作室
 // @match        *://v.youku.com/v_show/id_*.html*
 // @match        *://www.iqiyi.com/v_*.html*
@@ -10,6 +10,7 @@
 // @match        *://v.qq.com/x/cover/*/*.html*
 // @match        *://v.qq.com/x/cover/*.html*
 // @match        *://film.sohu.com/album/*.html*
+// @match        *://www.mgtv.com/b/*/*.html*
 // @grant        GM_addStyle
 // ==/UserScript==
 
@@ -18,7 +19,7 @@
 Page = {
     entry:function(){
         //创建按钮
-        var text = document.createTextNode("▶");
+        var text = document.createTextNode("▸");
 
         //创建按钮
         var div = document.createElement("div");
@@ -51,7 +52,7 @@ Page = {
 };
 (function() {
     'use strict';
-    GM_addStyle(".test{top:240px !important;}.whisper-drama{position:fixed;left:0;top:185px;color:#fff;z-index:9999;width:18px;line-height:50px;text-align:center;border-radius:0px 5px 5px 0px;background:#666;cursor:default;}.whisper-drama:hover{color:white;background:#880000;cursor:pointer;}");
+    GM_addStyle(".test{top:240px !important;}.whisper-drama{position:fixed;left:0;top:185px;color:#fff;z-index:9999;width:18px;line-height:50px;text-align:center;border-radius:0px 5px 5px 0px;background:#666;cursor:default;font-size:25px;}.whisper-drama:hover{color:white;background:#880000;cursor:pointer;}");
 
     Page.entry();
 })();
