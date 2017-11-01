@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         细声视频播放：测试版
 // @namespace    http://drama.xlwmin.pub
-// @version      1.2.3
+// @version      1.2.4
 // @description  测试版
 // @author       细声工作室
 // @match        *://v.youku.com/v_show/id_*.html*
@@ -11,6 +11,7 @@
 // @match        *://v.qq.com/x/cover/*.html*
 // @match        *://film.sohu.com/album/*.html*
 // @match        *://www.mgtv.com/b/*/*.html*
+// @match        *://v.pptv.com/show/*.html*
 // @grant        GM_addStyle
 // ==/UserScript==
 
