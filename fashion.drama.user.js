@@ -4,6 +4,7 @@
 // @version      1.2.5
 // @description  细声视频播放,增加手机支持
 // @author       细声工作室
+// @license      MIT
 // @match        *://v.youku.com/v_show/id_*.html*
 // @match        *://www.iqiyi.com/v_*.html*
 // @match        *://tv.sohu.com/*/n*.shtml*
