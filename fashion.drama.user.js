@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         细声视频播放
 // @namespace    http://drama.xlwmin.pub
-// @version      1.2.6
-// @description  细声视频播放,增加手机支持,完善地址匹配
+// @version      1.2.7
+// @description  细声视频播放,增加乐视
 // @author       细声工作室
 // @license      MIT
 // @match        *://v.youku.com/v_show/id_*.html*
@@ -13,6 +13,7 @@
 // @match        *://v.qq.com/x/cover/*.html*
 // @match        *://www.mgtv.com/b/*/*.html*
 // @match        *://v.pptv.com/show/*.html*
+// @match        *://www.le.com/ptv/vplay/*.html*
 // @match        *://m.youku.com/video/id_*.html*
 // @match        *://m.v.qq.com/x/cover/*/*.html*
 // @match        *://m.v.qq.com/x/cover/*.html*
@@ -23,6 +24,7 @@
 // @match        *://m.iqiyi.com/v_*.html*
 // @match        *://m.pptv.com/show/*.html*
 // @match        *://m.mgtv.com/*
+// @match        *://m.le.com/vplay_*.html*
 // @grant        GM_addStyle
 // ==/UserScript==
 
