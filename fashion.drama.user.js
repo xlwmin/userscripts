@@ -2,7 +2,7 @@
 // @name         细声视频播放
 // @namespace    http://drama.xlwmin.pub
 // @version      1.2.8
-// @description  细声视频播放
+// @description  正式版
 // @author       细声工作室
 // @license      MIT
 // @match        *://v.youku.com/v_show/id_*.html*

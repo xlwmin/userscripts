@@ -2,7 +2,7 @@
 // @name         细声影视收藏
 // @namespace    http://dramas.xlwmin.pub
 // @version      1.0.1
-// @description  用户测试
+// @description  公测版
 // @author       细声工作室
 // @license      MIT
 // @match        *://v.youku.com/v_show/id_*.html*
