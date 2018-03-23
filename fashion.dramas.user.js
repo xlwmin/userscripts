@@ -1,19 +1,24 @@
 // ==UserScript==
 // @name         细声影视收藏
 // @namespace    http://dramas.xlwmin.pub
-// @version      1.0.0
+// @version      1.0.1
 // @description  用户测试
 // @author       细声工作室
 // @license      MIT
 // @match        *://v.youku.com/v_show/id_*.html*
 // @match        *://www.iqiyi.com/v_*.html*
 // @match        *://tv.sohu.com/*/n*.shtml*
+// @match        *://my.tv.sohu.com/us/*/*.shtml*
 // @match        *://film.sohu.com/album/*.html*
 // @match        *://v.qq.com/x/cover/*/*.html*
 // @match        *://v.qq.com/x/cover/*.html*
 // @match        *://www.mgtv.com/b/*/*.html*
 // @match        *://v.pptv.com/show/*.html*
 // @match        *://www.le.com/ptv/vplay/*.html*
+// @match        *://www.1905.com/vod/play/*.shtml*
+// @match        *://vip.1905.com/play/*.shtml*
+// @match        *://tv.cctv.com/*/*/*/*.shtml*
+// @match        *://tv.cctv.com/*/*/*.html*
 // @grant        GM_addStyle
 // ==/UserScript==
 
