@@ -11,7 +11,7 @@
 
 
 //测试同步
-Page = {
+var Page = {
     entry:function(){
         //创建按钮
         var text = document.createTextNode("▣");
