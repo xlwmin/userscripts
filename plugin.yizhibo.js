@@ -2,7 +2,7 @@
 // @name         细声一直播全屏
 // @namespace    http://xlwmin.pub
 // @version      1.0
-// @description  一直播全屏
+// @description  正式版，一直播可全屏
 // @author       细声工作室
 // @license      MIT
 // @match        *://www.yizhibo.com/l/*.html
@@ -30,7 +30,6 @@ var Page = {
     },
     onClick:function(){
         var video = document.getElementById('J_flash');
-        console.log(video);
         var element = video;
         if (element.requestFullscreen) {
             element.requestFullscreen();
