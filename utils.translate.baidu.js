@@ -52,7 +52,7 @@ var Page = {
 };
 (function() {
     'use strict';
-    GM_addStyle(".whisper-translate{position:fixed;left:0;top:185px;color:#fff;z-index:9999;width:18px;line-height:30px;text-align:center;border-radius:0px 5px 5px 0px;background:#666;cursor:default;font-size:15px;}.whisper-translate:hover{color:white;background:#880000;cursor:pointer;}");
+    GM_addStyle(".whisper-translate{position:fixed;left:0;top:150px;color:#fff;z-index:9999;width:18px;line-height:30px;text-align:center;border-radius:0px 5px 5px 0px;background:#666;cursor:default;font-size:15px;}.whisper-translate:hover{color:white;background:#880000;cursor:pointer;}");
 
     Page.entry();
 })();
