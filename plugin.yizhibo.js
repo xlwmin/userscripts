@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         细声一直播全屏
 // @namespace    http://xlwmin.pub
-// @version      1.0
+// @version      1.1
 // @description  一直播全屏
 // @author       细声工作室
 // @license      MIT
