@@ -1,12 +1,16 @@
 // ==UserScript==
 // @name         细声百度翻译
 // @namespace    http://www.xlwmin.pub
-// @version      1.0.0
-// @description  选中文字跳转百度翻译
+// @version      1.0.1
+// @description  1.0.0 选中文字跳转百度翻译 1.0.1 对选中文本编码
 // @author       细声工作室
 // @license      MIT
-// @match        *://*.quora.*
-// @match        *://*.youtube.com/watch*
+// @match        *://www.quora.com/*
+// @match        *://www.youtube.com/*
+// @match        *://www.imdb.com/*
+// @match        *://www.reddit.com/*
+// @match        *://www.resetera.com/*
+// @match        *://*.cnn.com/*
 // @grant        GM_addStyle
 // ==/UserScript==
 
@@ -41,7 +45,7 @@ var Page = {
     onClick:function(){
         var form = document.createElement("form");
         form.setAttribute("method","get");
-        form.setAttribute("action","https://fanyi.baidu.com/#en/zh/"+Page.text);
+        form.setAttribute("action","https://fanyi.baidu.com/#en/zh/"+encodeURIComponent(Page.text));
         form.setAttribute("target","_blank");
         form.style.display="none";
 
