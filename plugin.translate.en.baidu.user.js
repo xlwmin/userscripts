@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         细声百度翻译
+// @name         细声百度翻译(英语)
 // @namespace    http://www.xlwmin.pub
 // @version      1.0.1
 // @description  1.0.0 选中文字跳转百度翻译 1.0.1 对选中文本编码
@@ -10,7 +10,9 @@
 // @match        *://www.imdb.com/*
 // @match        *://www.reddit.com/*
 // @match        *://www.resetera.com/*
+// @match        *://www.ign.com/*
 // @match        *://*.cnn.com/*
+// @match        *://*.steamcommunity.com/*
 // @grant        GM_addStyle
 // ==/UserScript==
 
@@ -20,7 +22,7 @@ var Page = {
     text:null,
     entry:function(){
         //创建按钮
-        var text = document.createTextNode("zh");
+        var text = document.createTextNode("EN");
 
         //创建按钮
         var div = document.createElement("div");
